@@ -1,0 +1,77 @@
+.lateral {
+    width: 30%;
+    padding: 30px;
+
+    background-color: darksalmon;
+    color: white;
+text-align: center;
+}
+
+.foto img{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lateral h2 {
+ margin: 30px 0 15px;
+ font-size: 18px;
+ border-bottom: 1px solid white;
+ padding-bottom: 8px;
+}
+
+
+.curriculo{
+display: flex;
+}
+
+.conteudo{
+    width: 70%;
+    padding: 40px;
+}
+
+.conteudo h1{
+color: black;
+border-bottom: 2px solid black;
+padding-bottom: 8px;
+margin-bottom: 15px;
+}
+
+
+.conteudo.section {
+margin-bottom: 30px;
+}
+
+.conteudo.h2 {
+color: black;
+border-bottom: 2px salmon;
+padding-bottom: 8px;
+margin-bottom: 15px;
+}
+
+
+.item{
+margin-bottom: 25px;
+}
+
+.item span{
+    color: darkgrey;
+    font-size: 14px;
+}
+
+/* responsividade */
+@media (max-width:700px) {
+
+     .curriculo {
+        flex-direction: column;
+     }
+
+     .lateral
+        .conteudo {
+            width: 100px;
+        }
+    }
